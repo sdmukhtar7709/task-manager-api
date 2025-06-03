@@ -43,6 +43,7 @@ Main Interface
 
 Postman Testing
 ✅ GET All Tasks
+
 Response(200):
 <img 
   src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20093942.png" 
@@ -50,12 +51,14 @@ Response(200):
 />
 
 ✅ POST Create Task
+
 Response(201):
 <img 
   src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/post.png" 
   style="border: 3px solid #007acc; border-radius: 8px;" 
 />
 ✅ GET Task by ID
+
 Response(200):
 <img 
   src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20094151.png" 
@@ -63,6 +66,7 @@ Response(200):
 />
 
 ✅ PUT Update Task
+
 Response(200):
 <img 
   src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/update.png" 
