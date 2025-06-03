@@ -36,4 +36,9 @@ GET /tasks
 ✅ Fetch all tasks
 
 
+## 📸 Postman Result: GET /tasks
+
+✅ Fetch all tasks
+
+![GET Tasks](screenshots/get-tasks.png)
 
