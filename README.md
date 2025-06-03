@@ -39,8 +39,10 @@ GET /tasks
 ## 📸 Postman Result: GET /tasks
 
 ✅ Fetch all tasks
+## 📸 Postman Result: GET /tasks
 
-![GET Tasks]([https://raw.githubusercontent.com/your-username/task-manager-api/main/screenshots/get-tasks.png](https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20093942.png?raw=true))
+![GET Tasks](https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/Screenshot%202025-06-03%20093942.png)
+
 
 
 
