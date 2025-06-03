@@ -40,6 +40,6 @@ GET /tasks
 
 ✅ Fetch all tasks
 
-![GET Tasks](![GET Tasks](https://raw.githubusercontent.com/your-username/task-manager-api/main/screenshots/get-tasks.png)
-)
+![GET Tasks](https://raw.githubusercontent.com/your-username/task-manager-api/main/screenshots/get-tasks.png)
+
 
