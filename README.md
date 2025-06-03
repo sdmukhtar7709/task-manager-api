@@ -30,7 +30,7 @@ The API supports full **CRUD operations** and stores data **in-memory** (no data
 
 ## 🚀 How to Run the Project
 git clone https://github.com/your-username/task-manager-api.git
-cd task-manager-api
+cd task-api
 npm install
 node index.js
 ```
