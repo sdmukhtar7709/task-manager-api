@@ -40,5 +40,5 @@ GET /tasks
 
 ✅ Fetch all tasks
 
-![GET Tasks](screenshots/get-tasks.png)
+![GET Tasks](ss/Screenshot 2025-06-03 093942.png)
 
