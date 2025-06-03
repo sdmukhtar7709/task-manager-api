@@ -17,14 +17,11 @@ The API supports full **CRUD operations** and stores data **in-memory** (no data
 - Clean error handling
 - Postman-tested endpoints
 
-**Prerequisites**
+## Prerequisites
 
 -Node.js installed (v14 or higher)
-
 -express  
-
 -npm installed
-
 -Postman (for API testing)
 
   
