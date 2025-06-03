@@ -36,6 +36,7 @@ node index.js
 ## following is the result on postman
 GET /tasks
 ✅ Fetch all tasks
+
 <img src="https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/get-tasks.png" style="width: 400px; border-radius: 8px;" />
 
 
