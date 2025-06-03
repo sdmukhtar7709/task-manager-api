@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Task Manager API</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <h1>📝 Task Manager API</h1>
+
+  <form id="taskForm">
+    <input type="text" id="title" placeholder="Title" required />
+    <input type="text" id="description" placeholder="Description" required />
+    <button type="submit">Create Task</button>
+  </form>
+
+  <div id="response"></div>
+
+  <script>
+  const form = document.getElementById("taskForm");
+  const responseDiv = document.getElementById("response");
+
+  form.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const title = document.getElementById("title").value.trim();
+    const description = document.getElementById("description").value.trim();
+
+    if (!title || !description) {
+      responseDiv.innerHTML = `<p style="color:red;">Title and Description are required.</p>`;
+      return;
+    }
+
+    form.querySelector("button").disabled = true;
+    responseDiv.innerHTML = `<p>Creating task...</p>`;
+
+    try {
+      const res = await fetch("/tasks", {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify({ title, description }),
+      });
+
+      const data = await res.json();
+
+      if (!res.ok) {
+        responseDiv.innerHTML = `<p style="color:red;">Error: ${data.error || 'Unknown error'}</p>`;
+      } else {
+        responseDiv.innerHTML = `<pre>${JSON.stringify(data, null, 2)}</pre>`;
+        form.reset();
+      }
+    } catch (err) {
+      responseDiv.innerHTML = `<p style="color:red;">Network error: ${err.message}</p>`;
+    } finally {
+      form.querySelector("button").disabled = false;
+    }
+  });
+</script>
+
+</body>
+</html>
