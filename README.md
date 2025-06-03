@@ -27,7 +27,7 @@ cd task-manager-api
 npm install
 node index.js
 
-[ING](https://github.com/sdmukhtar7709/task-manager-api/blob/main/Screenshot%202025-06-03%20093942.png)
+![ING](https://github.com/sdmukhtar7709/task-manager-api/blob/main/Screenshot%202025-06-03%20093942.png)
 
 
 
