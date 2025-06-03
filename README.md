@@ -34,15 +34,27 @@ node index.js
 
 
 ## following is the result on postman
-GET /tasks
-✅ Fetch all tasks
+Main Interface
 
 <img 
   src="https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/Screenshot%202025-06-03%20100923.png" 
   style="border: 3px solid #007acc; border-radius: 8px;" 
 />
 
+Postman Testing
+✅ GET All Tasks
+<img 
+  src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20093942.png" 
+  style="border: 3px solid #007acc; border-radius: 8px;" 
+/>
 
+✅ POST Create Task
+
+✅ GET Task by ID
+
+✅ PUT Update Task
+
+✅ DELETE Task
 
 
 
