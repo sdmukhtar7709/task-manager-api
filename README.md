@@ -51,7 +51,10 @@ Postman Testing
 
 ✅ POST Create Task
 
-
+<img 
+  src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/post.png" 
+  style="border: 3px solid #007acc; border-radius: 8px;" 
+/>
 ✅ GET Task by ID
 
 ✅ PUT Update Task
