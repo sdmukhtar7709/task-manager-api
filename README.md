@@ -41,7 +41,7 @@ GET /tasks
   src="https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/Screenshot%202025-06-03%20100923.png" 
   width="500" 
   height="300" 
-  style="border: 3px solid #007acc; border-radius: 8px;" 
+  style="border: 3px solid black; border-radius: 8px;" 
 />
 
 
