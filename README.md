@@ -57,11 +57,23 @@ Postman Testing
 />
 ✅ GET Task by ID
 
+<img 
+  src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20094151.png" 
+  style="border: 3px solid #007acc; border-radius: 8px;" 
+/>
+
 ✅ PUT Update Task
 
+<img 
+  src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/update.png" 
+  style="border: 3px solid #007acc; border-radius: 8px;" 
+/>
 ✅ DELETE Task
 
-
+<img 
+  src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20094817.png" 
+  style="border: 3px solid #007acc; border-radius: 8px;" 
+/>
 
 
 
