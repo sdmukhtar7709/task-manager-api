@@ -40,5 +40,6 @@ GET /tasks
 
 ✅ Fetch all tasks
 
-![GET Tasks](ss/Screenshot 2025-06-03 093942.png)
+![GET Tasks](![GET Tasks](https://raw.githubusercontent.com/your-username/task-manager-api/main/screenshots/get-tasks.png)
+)
 
