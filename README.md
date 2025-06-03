@@ -37,20 +37,20 @@ node index.js
 Main Interface
 
 <img 
-  src="https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/cropped-image.png" 
-  width="500" 
-  style="border: 3px solid #007acc; border-radius: 8px;" 
+  src="https://raw.githubusercontent.com/sdmukhtar7709/task-manager-api/main/ss/cropped-image.png" style="border: 3px solid #007acc; border-radius: 8px;" 
 />
 
 
 Postman Testing
 ✅ GET All Tasks
+
 <img 
   src="https://github.com/sdmukhtar7709/task-manager-api/blob/main/ss/Screenshot%202025-06-03%20093942.png" 
   style="border: 3px solid #007acc; border-radius: 8px;" 
 />
 
 ✅ POST Create Task
+
 
 ✅ GET Task by ID
 
